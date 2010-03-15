@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+<ImageView
+	android:id="@+id/cSLogo"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_alignParentRight="true"
+	/>
+<Button
+	android:id="@+id/onOff"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:paddingLeft="5px"
+ 	android:paddingTop="5px"
+	android:layout_below="@id/cSLogo"
+	/>
+<TextView  
+	android:id="@+id/displayStatus"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+	android:paddingLeft="5px"
+ 	android:paddingTop="5px"    
+    android:layout_below="@id/onOff"
+    />
+</RelativeLayout>
